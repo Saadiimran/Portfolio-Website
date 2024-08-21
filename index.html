@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    </head>
+
+ <body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a href="" class="navbar-brand">Saadi Edits </a>
+        <button class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDarkDropdown" 
+          aria-controls="navbarNavDarkDropdown"
+          aria-expanded="false" 
+          aria-label="Toggle navigation"
+          >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Projects
+                </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Personal Projects</a></li>
+                    <li><a class="dropdown-item" href="#">Paid Projects</a></li>
+                    <li><a class="dropdown-item" href="#">Ongoing Projects</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+            </ul>
+         </div>
+    </div>
+  </nav>
+  <div class="p-5 text-center bg-image" style="
+      background-image: url(background\ image.jpg);"
+       >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);
+        height: 60vh; opacity: 100%;">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+           <h1 class="mb-3">Want some sick Edits?</h1>
+           <a  class="btn btn-outline-light btn-lg" href="#!" role="button">Book your Slot</a>
+          </div>
+        </div>
+    </div>
+  </div>
+
+<div class="container-fluid">
+  <div class="row mb-5" >
+    <div class="col-md-4 mb-sm-3 ">
+      <div class="card mt-3">
+        <img src="pexels-hikaique-598917.jpg" class="card-img-top" style="height: 250px;" alt="...">
+
+        <div class="card-body">
+          <h5 class="card-title">Photography Editing</h5>
+          <p class="card-text">Get your pictures edited to perfection.</p>
+          <a href="#" class="btn btn-primary">More Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-sm-3">
+      <div class="card mt-3" >
+        <video src="Helmets Final.mp4" class="card-img-top" controls style="height: 250px;"></video>
+
+        <div class="card-body">
+          <h5 class="card-title">Video Editing w/o Color Grading</h5>
+          <p class="card-text">Get your videos edited to perfection.</p>
+          <a href="#" class="btn btn-primary">More Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-sm-3">
+      <div class="card mt-3" >
+        <video src="Mi Mymart Watch.mp4" class="card-img-top" controls style="height: 250px;"></video>
+
+        <div class="card-body">
+          <h5 class="card-title">Video Editing with Color Grading</h5>
+          <p class="card-text">Get your videos edited and color graded.</p>
+          <a href="#" class="btn btn-primary">More Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="text-center">Contact Form</h2>
+<div class="container-fluid bg-dark p-5" style="color: white; ">
+  <div class="row">
+  <div class="col-sm-4">
+  <h3>Drop me a line!</h3>
+  <hr>
+  <address>
+  <h5>Email:</h5> <a href=""> saadiedits@gmail.com</a><br><br>
+  <h5>Phone:</h5> +92123456789
+  </address>
+  </div>
+      
+  <div class="col-sm-8 contact-form">
+  <form id="contact" method="post" class="form" role="form">
+  <div class="row">
+  <div class="col-xs-6 col-md-6 form-group">
+  <input style="color: white;" class="form-control bg-dark" id="name" name="name" placeholder="Name" type="text" required />
+  <div class="error"></div>
+  </div>
+  <div class="col-xs-6 col-md-6 form-group">
+  <input style="color: white;" class="form-control bg-dark" id="email" name="email" placeholder="Email" type="email" required />
+  <div class="error"></div>
+  </div>
+  </div>
+  <textarea style="color: white;" class="form-control bg-dark" id="message" name="message" placeholder="Message" rows="5"></textarea>
+  <div class="error"></div>
+  <br />
+  <div class="row">
+  <div class="col-xs-12 col-md-12 form-group">
+  <button class="btn btn-primary pull-right" type="submit">Submit</button>
+  </form>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="bootstrap.js"></script>
+  </body>
+
+</html>
